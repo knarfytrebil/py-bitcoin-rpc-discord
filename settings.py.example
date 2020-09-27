@@ -1,0 +1,20 @@
+RPC_USER = 'bitcoinrpcuser'
+RPC_PASSWORD = 'bitcoinrpcpassword'
+RPC_HOST = 'localhost'
+RPC_PORT = "8332"
+
+RPC_URL = "http://{}:{}@{}:{}".format(
+    RPC_USER, 
+    RPC_PASSWORD, 
+    RPC_HOST, 
+    RPC_PORT
+)
+
+DISCORD_CODE_TEMPLATE = "```{}```"
+DISCORD_TOKEN = "discord token"
+DISCORD_PREFIX = "!"
+DISCORD_JSON_FORMAT = {
+    "indent": 4,
+    "sort_keys": True,
+    "use_decimal": True
+}
